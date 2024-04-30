@@ -1,0 +1,135 @@
+body {
+    height: 1000px;
+    background-image: url('https://i.pinimg.com/originals/41/ca/80/41ca80fc934d0bf40ba11423f971174c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(230, 100, 139);
+    font-size: 15pt;
+    font-family: monospace;
+}
+
+.DivGlobal {
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    justify-content: center;
+    display: block;
+    width: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 10px;
+    color: rgb(230, 100, 139);
+}
+
+img {
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.Personagem1 {
+    justify-content: center;
+    display: flex;
+    padding:60px;
+}
+.DivPersonagem1 {
+    justify-content: center;
+    display: block;
+}
+
+.BotaoDeAtackP1 {
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    transition: 1000ms;
+}
+
+.BotaoDeAtackP1:hover {
+    transition: 1000ms;
+    scale: 1.1;
+}
+.BotaoDeAtackP1 input:hover {
+    transition: 1000ms;
+    background-color: red;
+    color: black;
+}
+
+.Personagem2 {
+    justify-content: center;
+    display: flex;
+    padding:60px;
+}
+.DivPersonagem2 {
+    justify-content: center;
+    display: block;
+}
+
+.BotaoDeAtackP2 {
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    transition: 1000ms;
+}
+
+.BotaoDeAtackP2:hover {
+    transition: 1000ms;
+    scale: 1.1;
+}
+.BotaoDeAtackP2 input:hover {
+    transition: 1000ms;
+    background-color: red;
+    color: black;
+}
+
+.DivPersonagem input {
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.container > span {
+    flex: 1; /* Distribui o espaço igualmente entre os elementos */
+}
+
+/* Estilos específicos para cada classe */
+.NarradorP1, .CampoDeBatalhaP1 {
+    text-align: left; /* Alinhar à esquerda */
+    font-family: fantasy;
+}
+
+.NarradorP2, .CampoDeBatalhaP2 {
+    text-align: right; /* Alinhar à direita */
+    font-family: fantasy;
+}
+
+
+
+
+.message {
+    animation: slideIn 0s forwards, fadeOut 10s 0s forwards;
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

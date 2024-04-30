@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MiniGame.css">
+    <title>Mini Game</title>
+</head>
+<body>
+    <div class="DivGlobal">
+        <div class="Personagem1">
+            <form>
+                <div class="DivPersonagem">
+                    <div><label>Nome Do Personagem 1: <input type="text" id="Nome1"></label></div>
+                    <div><label>Vida: <input type="number" id="Vida1"></label></div>
+                    <div><label>Nome do Poder: <input type="text" id="NomeDoPoder1"></label></div>
+                    <div><label>Dano do Poder: <input type="number" id="DanoDoPoder1"></label></div>
+                    <div><label><input type="file" id="fileInput" accept="image/*"></label></div>
+                    <div id="imageContainer"></div>
+                </div>
+            </form>
+            <div class="BotaoDeAtackP1">
+                <input type="button" value="Atack" onclick="ATACK1()">
+            </div>
+        </div>
+        <div class="Personagem2">
+            <form>
+                <div class="DivPersonagem">
+                    <div><label>Nome Do Personagem 2: <input type="text" id="Nome2"></label></div>
+                    <div><label>Vida: <input type="number" id="Vida2"></label></div>
+                    <div><label>Nome do Poder: <input type="text" id="NomeDoPoder2"></label></div>
+                    <div><label>Dano do Poder: <input type="number" id="DanoDoPoder2"></label></div>
+                    <div><label><input type="file" id="fileInput2" accept="image/*"></label></div>
+                    <div id="imageContainer2"></div>
+                </div>
+            </form>
+            <div class="BotaoDeAtackP2">
+                <input type="button" value="Atack" onclick="ATACK2()">
+            </div>
+        </div>
+    </div>
+
+    <div class="CONTAINER">
+        <span class="NarradorP1">
+            <p id="NarradorP1"></p>
+        </span>
+    
+        <span class="CampoDeBatalhaP1">
+            <p id="NomeDoPersonagem1"></p>
+            <p id="VidaPosAtack1"></p>
+        </span>
+    
+        <span class="NarradorP2">
+            <p id="NarradorP2"></p>
+        </span>
+    
+        <span class="CampoDeBatalhaP2">
+            <p id="NomeDoPersonagem2"></p>
+            <p id="VidaPosAtack2"></p>
+        </span>
+    </div>
+
+    <div id="messagesContainer"></div>
+
+    </div>
+    <script src="./MiniGame.js"></script>
+    <script src="./Imagem.js"></script>
+</body>
+</html>

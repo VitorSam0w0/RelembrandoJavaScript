@@ -1,0 +1,60 @@
+body {
+    height: 1000px;
+    background-image: url('./space.papaer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    font-size: 20pt;
+}
+
+.Titulo {
+    padding-top: 130px;
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    font-family: monospace;
+    font-size: 15pt;
+}
+
+.Principal {
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.Principal a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+.Principal input {
+    transition-duration: 2000ms;
+    border-radius: 10px;
+}
+
+.Principal input:hover {
+    transition-duration: 2000ms;
+    scale: 1.2;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.Secundaria {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.Secundaria .paragrafos {
+    display: block;
+}
+
+
+#ExibirNome{color: aliceblue;}
+#ExibirSobreNome{color: aliceblue;}
+#ExibirEstudo{color: aliceblue;}
+#ExibirAno{color: aliceblue;}

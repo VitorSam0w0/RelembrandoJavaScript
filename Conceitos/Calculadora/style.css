@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-8moments-1323550.jpg&fm=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-family: monospace;
+    font-size: 22pt;
+}
+
+.Titulo {
+    justify-content: center;
+    color: black;
+    display: flex;
+    padding-top: 80px;
+}
+
+input {
+    font-family: monospace;
+    font-size: 20pt;
+    border-radius: 10px;
+}
+
+.Numeros input {
+    width: 200px;
+}
+
+
+.Numeros {
+    justify-content: center;
+    display: flex;
+    padding-top: 200px;
+}
+
+.Valores {
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+.Valores input {
+    margin: 50px;
+    scale: 2.1;
+    transition: 1000ms;
+}
+
+.Valores input:hover {
+    scale: 2.4;
+    transition: 1000ms;
+}
+
+
+
+.Resultado {
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+}

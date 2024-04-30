@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1 class="Titulo">Sistema simples de Cadastro</h1>
+    <div class="Principal">
+        <form>
+            <label><a href="#">Nome: </a><input type="text" id="Nome"></label>
+            <br>
+            <label><a href="#">Sobre Nome: </a><input type="text" id="SobreNome"></label>
+            <br>
+            <label><a href="#">Area de estudo: </a><input type="text" id="Estudo"></label>
+            <br>
+            <label><a href="#">Ano de nascimento: </a><input type="text" id="Ano"></lab>
+        </form>
+    </div>
+    <div class="Principal">
+        <div>
+            <input type="button" value="Cadastrar" onclick="Cadastro()">
+        </div>
+    </div>
+            <div class="Secundaria">
+                <div class="paragrafos">
+                    <p id="ExibirNome"></p>
+                    <p id="ExibirSobreNome"></p>
+                    <p id="ExibirEstudo"></p>
+                    <p id="ExibirAno"></p>
+                </div>
+            </div>
+    <script src="./pessoa.js"></script>
+</body>
+</html>
