@@ -7,6 +7,33 @@
     <title>Cadastro de Produtos</title>
 </head>
 <body>
+    <section>
+        <div>
+            <form><label>Nome do Produto: <input type="text" id="NomeDoProduto"></label></form>
+            <form><label>Valor do Produto:<input type="number" id="ValorDoProduto"></label></form>
+            <form><label>Codigo do Produto:<input type="number" id="CodigoDoProduto"></label></form>
+        </div>
+        <div>
+            <input type="button" value="Registrar Produto" onclick="RegistrarProduto()">
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                    <th>Código</th>
+                </tr>
+                <tr>
+                    <th id="ProdutoNoEstoque"></th>
+                    <th id="ValorNoEstoque"></th>
+                    <th id="CodigoNoEstoque"></th>
+                </tr>
+            </thead>
+            <tbody id="tabelaProdutos">
+                <!-- Aqui os dados serão preenchidos dinamicamente com JavaScript -->
+            </tbody>
+        </table>
+    </section>
     <script src="./Estoque.js"></script>
     <script src="./Produto.js"></script>
 </html>
