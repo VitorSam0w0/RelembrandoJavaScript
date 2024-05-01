@@ -43,3 +43,7 @@ const orcs = personagens.filter(function(personagem) {
 })
 
 console.log(orcs)
+
+
+//Reduce
+
