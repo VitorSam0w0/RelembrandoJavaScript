@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, pink, rgb(121, 208, 230), pink);
+    font-size: 17pt;
+    font-family: monospace;
+}
+
+input {
+    font-size: 15pt;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 10px;
+    transition: 1000ms;
+    border: ridge;
+    border-color: black;
+    width: 480px;
+    height: 330px;
+}
+
+img:hover {
+    scale: 1.1;
+    transition: 1000ms;
+    border-color: red;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Centraliza os containers verticalmente */
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.GlobalContainer {
+    border: ridge;
+    border-radius: 20px;
+}
